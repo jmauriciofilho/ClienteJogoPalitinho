@@ -7,6 +7,7 @@ import br.edu.unifor.view.PorrinhaGame;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.ServerSocket;
 import java.net.Socket;
 
 public class PorrinhaController {
@@ -55,6 +56,14 @@ public class PorrinhaController {
             String text = textField1.getText();
 
             send(text);
+
+            try {
+                String result = receive();
+
+                autorizeAposta.setText(result);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
         }
     }
 
@@ -73,12 +82,25 @@ public class PorrinhaController {
     {
         try {
 
-            Socket client = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().joinGroup("172.18.0.1", 1024);
+            ServerSocket server = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().createGroup(1024);
 
-            FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().sendMensage(client, text, "172.18.0.1");
+            Socket socket = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().serverListener(server);
+
+            FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().sendMensage(socket, text, "172.18.0.1");
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
+
+
+    private String receive() throws Exception {
+
+        Socket client = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().joinGroup("0.0.0.0", 10);
+
+        return FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().reciverMensage(client);
+
+    }
+
+
 }
