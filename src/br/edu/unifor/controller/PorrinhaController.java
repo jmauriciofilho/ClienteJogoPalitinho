@@ -1,10 +1,13 @@
 package br.edu.unifor.controller;
 
+import br.edu.unifor.api.Factory.FactoryClass;
+import br.edu.unifor.api.Model.TypeProtocol;
 import br.edu.unifor.view.PorrinhaGame;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.Socket;
 
 public class PorrinhaController {
 
@@ -14,6 +17,7 @@ public class PorrinhaController {
     private JButton apostarButton;
     private JButton colocarButton;
     private JLabel resultGame;
+    private JLabel autorizeAposta;
 
     public PorrinhaController(){
         initComponents();
@@ -29,9 +33,12 @@ public class PorrinhaController {
 
         textField1 = porrinhaGame.getTextField1();
         textField2 = porrinhaGame.getTextField2();
+
         apostarButton = porrinhaGame.getApostarButton();
         colocarButton = porrinhaGame.getColocarButton();
+
         resultGame = porrinhaGame.getResultGame();
+        autorizeAposta = porrinhaGame.getAutorizeAposta();
     }
 
     private void initListener() {
@@ -46,7 +53,8 @@ public class PorrinhaController {
         @Override
         public void actionPerformed(ActionEvent actionEvent) {
             String text = textField1.getText();
-            System.out.println(text);
+
+            send(text);
         }
     }
 
@@ -55,8 +63,22 @@ public class PorrinhaController {
         @Override
         public void actionPerformed(ActionEvent actionEvent) {
             String text = textField2.getText();
-            System.out.println(text);
-            resultGame.setText("Deu certo");
+
+            send(text);
+
+        }
+    }
+
+    private void send(String text)
+    {
+        try {
+
+            Socket client = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().joinGroup("172.18.0.1", 1024);
+
+            FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().sendMensage(client, text, "172.18.0.1");
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }

@@ -12,6 +12,7 @@ public class PorrinhaGame extends JFrame{
     private JTextField textField2;
     private JButton apostarButton;
     private JButton colocarButton;
+    private JLabel autorizeAposta;
     private JLabel resultGame;
 
     public PorrinhaGame() {
@@ -34,6 +35,10 @@ public class PorrinhaGame extends JFrame{
 
     public JButton getColocarButton() {
         return colocarButton;
+    }
+
+    public JLabel getAutorizeAposta() {
+        return  autorizeAposta;
     }
 
     public JLabel getResultGame(){
