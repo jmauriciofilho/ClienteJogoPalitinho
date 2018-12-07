@@ -12,6 +12,7 @@ public class PorrinhaGame extends JFrame{
     private JTextField textField2;
     private JButton apostarButton;
     private JButton colocarButton;
+    private JLabel resultGame;
 
     public PorrinhaGame() {
         setSize(WIDTH, HEIGHT);
@@ -33,5 +34,9 @@ public class PorrinhaGame extends JFrame{
 
     public JButton getColocarButton() {
         return colocarButton;
+    }
+
+    public JLabel getResultGame(){
+        return  resultGame;
     }
 }
