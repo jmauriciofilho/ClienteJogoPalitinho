@@ -12,6 +12,8 @@ import java.net.Socket;
 
 public class PorrinhaController {
 
+    private static final String IP = "172.18.0.1";
+
     private PorrinhaGame porrinhaGame;
     private JTextField textField1;
     private JTextField textField2;
@@ -23,6 +25,11 @@ public class PorrinhaController {
     public PorrinhaController(){
         initComponents();
         initListener();
+        initPessoa();
+    }
+
+    private void initPessoa() {
+        send("novo;"+IP);
     }
 
     public void showWindow(){
@@ -55,15 +62,7 @@ public class PorrinhaController {
         public void actionPerformed(ActionEvent actionEvent) {
             String text = textField1.getText();
 
-            send(text);
-
-            try {
-                String result = receive();
-
-                autorizeAposta.setText(result);
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-            }
+            send("qtd;"+IP+";"+text);
         }
     }
 
@@ -73,7 +72,7 @@ public class PorrinhaController {
         public void actionPerformed(ActionEvent actionEvent) {
             String text = textField2.getText();
 
-            send(text);
+            send("palpite;"+IP+";"+text);
 
         }
     }
@@ -91,15 +90,6 @@ public class PorrinhaController {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-    }
-
-
-    private String receive() throws Exception {
-
-        Socket client = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().joinGroup("0.0.0.0", 10);
-
-        return FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().reciverMensage(client);
-
     }
 
 
