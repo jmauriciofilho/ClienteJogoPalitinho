@@ -4,8 +4,6 @@
     <list default="true" id="ca18bf08-ba5f-4f9f-9e46-e087e0b306b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,12 +255,12 @@
       <workItem from="1544277853768" duration="212000" />
       <workItem from="1544455264604" duration="1055000" />
       <workItem from="1544478562437" duration="300000" />
-      <workItem from="1544481621868" duration="1303000" />
+      <workItem from="1544481621868" duration="1868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31147000" />
+    <option name="totallyTimeSpent" value="31712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -435,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

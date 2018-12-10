@@ -59,7 +59,7 @@ public class PorrinhaController {
 
     public void initInscrito(){
         String result = send("novo;"+IP);
-        
+
         inscrito.setText(result);
     }
 
