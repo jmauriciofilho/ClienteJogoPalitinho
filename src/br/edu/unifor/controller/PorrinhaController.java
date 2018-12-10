@@ -79,17 +79,7 @@ public class PorrinhaController {
 
     private void send(String text)
     {
-        try {
-
-            ServerSocket server = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().createGroup(1024);
-
-            Socket socket = FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().serverListener(server);
-
-            FactoryClass.createFactory(TypeProtocol.TCP).connecProtocol().sendMensage(socket, text, "172.18.0.1");
-
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+        //
     }
 
 

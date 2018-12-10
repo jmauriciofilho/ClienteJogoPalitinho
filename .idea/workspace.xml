@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca18bf08-ba5f-4f9f-9e46-e087e0b306b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ApostarBtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ApostarBtnListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ColocarBtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ColocarBtnListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Model/Mensage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/AbstractProtocol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/ProtocoUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/ProtocolTCP.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +31,86 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="95" column="47" lean-forward="true" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
+            <state relative-caret-position="21">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Model/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,11 +141,17 @@
         <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/Model/Mensage.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/Protocol/ProtocoUDP.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/Factory/FactoryClass.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryUDP.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryTCP.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.form" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryTCP.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryClass.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryUDP.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IServer.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPClient.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPServer.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPClient.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Model/Message.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPServer.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" />
       </list>
     </option>
@@ -95,30 +187,68 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unifor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unifor" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unifor" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unifor" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unifor" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="Protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unifor" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544153576095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544455818921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_TCP_UDP-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api" />
+      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api/Factory" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.unifor.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api/Factory" />
-      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,17 +299,18 @@
       <workItem from="1544138488685" duration="14576000" />
       <workItem from="1544217797292" duration="3665000" />
       <workItem from="1544221522527" duration="1957000" />
+      <workItem from="1544277853768" duration="212000" />
+      <workItem from="1544455264604" duration="555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28277000" />
+    <option name="totallyTimeSpent" value="29044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -224,19 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryUDP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -257,40 +375,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Model/TypeProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryTCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/AbstractProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -298,9 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="786">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -311,10 +396,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryTCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Factory/FactoryUDP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Model/TypeProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="95" column="47" lean-forward="true" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
+        <state relative-caret-position="21">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
