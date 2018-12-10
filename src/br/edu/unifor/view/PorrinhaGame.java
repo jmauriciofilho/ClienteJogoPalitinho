@@ -14,6 +14,7 @@ public class PorrinhaGame extends JFrame{
     private JButton colocarButton;
     private JLabel autorizeAposta;
     private JLabel resultGame;
+    private JLabel inscrito;
 
     public PorrinhaGame() {
         setSize(WIDTH, HEIGHT);
@@ -43,5 +44,9 @@ public class PorrinhaGame extends JFrame{
 
     public JLabel getResultGame(){
         return  resultGame;
+    }
+
+    public JLabel getInscrito() {
+        return inscrito;
     }
 }
