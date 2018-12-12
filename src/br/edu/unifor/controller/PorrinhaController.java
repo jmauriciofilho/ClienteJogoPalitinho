@@ -1,19 +1,18 @@
 package br.edu.unifor.controller;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
 import br.edu.unifor.api.Factory.FactoryClass;
 import br.edu.unifor.api.Model.TypeProtocol;
 import br.edu.unifor.api.Protocol.IClient;
 import br.edu.unifor.view.PorrinhaGame;
 
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.net.ServerSocket;
-import java.net.Socket;
-
 public class PorrinhaController {
-
-    private static final String IP = "172.18.0.1";
 
 
     private PorrinhaGame porrinhaGame;
@@ -24,6 +23,8 @@ public class PorrinhaController {
     private JLabel resultGame;
     private JLabel autorizeAposta;
     private JLabel inscrito;
+
+    private String username = "Airton Filho";
 
     public PorrinhaController(){
         initComponents();
@@ -58,7 +59,7 @@ public class PorrinhaController {
     }
 
     public void initInscrito(){
-        String result = send("novo;"+IP);
+        String result = send("novo;"+username);
 
         inscrito.setText(result);
     }
@@ -69,7 +70,7 @@ public class PorrinhaController {
         public void actionPerformed(ActionEvent actionEvent) {
             String text = textField1.getText();
 
-            String result = send("qtd;"+IP+";"+text);
+            String result = send("palitos;"+text);
 
             autorizeAposta.setText(result);
         }
@@ -81,23 +82,43 @@ public class PorrinhaController {
         public void actionPerformed(ActionEvent actionEvent) {
             String text = textField2.getText();
 
-            String result = send("palpite;"+IP+";"+text);
-            resultGame.setText(result);
+            String result = send("palpite;"+text);
+
+
+            if (result.equals("done")){
+                String data = listenerServer();
+                resultGame.setText(data);
+            }
+
         }
     }
 
     private String send(String text)
     {
+        String serverAddress = "127.0.0.1";
         int port = 1024;
 
         try {
             FactoryClass client = FactoryClass.createFactory(TypeProtocol.TCP);
-            IClient iClient = client.clientProtocol("127.0.0.1", port);
+            IClient iClient = client.clientProtocol(serverAddress, port);
             return iClient.sendMessage(text);
         }catch (Exception e){
             e.printStackTrace();
             return null;
         }
+
+    }
+
+    private String listenerServer(){
+
+
+        String result = "none";
+        while (result.equals("none")){
+            result = send("resultado");
+
+        }
+
+        return result;
 
     }
 

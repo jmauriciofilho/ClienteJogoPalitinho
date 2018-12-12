@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca18bf08-ba5f-4f9f-9e46-e087e0b306b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/Server/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifor/Server/Processamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Factory/FactoryClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Factory/FactoryClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Factory/FactoryTCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Factory/FactoryTCP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Factory/FactoryUDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Factory/FactoryUDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Model/Mensage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Protocol/AbstractProtocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Protocol/ProtocoUDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/api/Protocol/ProtocolTCP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ApostarBtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ApostarBtnListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ColocarBtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController$ColocarBtnListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/controller/PorrinhaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/view/PorrinhaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientePorrinha/br/edu/unifor/view/PorrinhaGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="510">
+              <caret line="102" column="65" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,28 +40,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/Server/Processamento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="265">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="35" selection-end-column="26" />
               <folding>
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -90,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/UDPServer.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.form" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unifor/Server/Processamento.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java" />
       </list>
     </option>
@@ -107,8 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,37 +131,6 @@
               <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unifor" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unifor" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unifor" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unifor" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="Protocol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unifor" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,15 +138,7 @@
               <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unifor" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClientePorrinha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClientePorrinha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unifor" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="PorrinhaGame" type="e9f4de52:FormNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,12 +156,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api" />
-      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api/Factory" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.unifor.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/edu/unifor" />
+      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api" />
+      <recent name="$PROJECT_DIR$/src/br/edu/unifor/api/Factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,17 +217,18 @@
       <workItem from="1544455264604" duration="1055000" />
       <workItem from="1544478562437" duration="300000" />
       <workItem from="1544481621868" duration="1868000" />
+      <workItem from="1544651178385" duration="2229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31712000" />
+    <option name="totallyTimeSpent" value="33941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27534685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27854857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,17 +371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="e#1063#1064#0" expanded="true" />
             <element signature="e#1094#1095#0" expanded="true" />
@@ -430,10 +385,37 @@
     <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/view/PorrinhaGame.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/api/Protocol/IClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/Server/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/Server/Processamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unifor/controller/PorrinhaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="510">
+          <caret line="102" column="65" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
